@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=http://klbajgzqsgnvoedy6rubzkhufnowe3sbqggsb7vbksv2lw35d6j4efyd.onion">
-    <title>Redirecting...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha seu Portfólio</title>
     <style>
         body {
             background-color: #000;
@@ -12,14 +12,45 @@
             text-align: center;
             padding-top: 50px;
         }
+        .container {
+            margin-top: 100px;
+        }
         h1 {
             color: #f00;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+        .button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            margin: 0 1rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+            background-color: #f00;
+            border: 2px solid #f00;
+            border-radius: 8px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .button:hover {
+            background-color: transparent;
+            color: #f00;
+        }
+        .deepweb-note {
+            margin-top: 2rem;
+            color: #aaa;
+            font-size: 0.9rem;
         }
     </style>
 </head>
 <body>
-    <h1>Redirecting...</h1>
-    <p>If you are not automatically redirected, please click the link below:</p>
-    <p><a href="http://klbajgzqsgnvoedy6rubzkhufnowe3sbqggsb7vbksv2lw35d6j4efyd.onion">Click here to proceed</a></p>
+    <div class="container">
+        <h1>Bem-vindo ao Portfólio de Teddy</h1>
+        <p>Por favor, escolha a sua versão preferida:</p>
+        <a href="http://klbajgzqsgnvoedy6rubzkhufnowe3sbqggsb7vbksv2lw35d6j4efyd.onion" class="button" target="_blank">Portfólio na Deepweb</a>
+        <a href="https://portifoliodoteddy.vercel.app/" class="button" target="_blank">Portfólio na Surface</a>
+        <p class="deepweb-note">Observação: O link da Deepweb só funciona com um navegador compatível com a rede Tor.</p>
+    </div>
 </body>
 </html>
